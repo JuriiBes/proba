@@ -378,7 +378,7 @@ input[type=search i] {
   right: 30%;
 }
 .menu-open .header__burger::after {
-  right: 50%;
+  right: 55%;
 }
 
 .footer {
@@ -1198,7 +1198,12 @@ body {
 }
 
 .deu-text {
-  font-size: calc((1vw + 0.5vh) * 4);
+  font-size: 4.6875rem;
+}
+@media (max-width: 81.25em) {
+  .deu-text {
+    font-size: calc((1vw + 0.5vh) * 4);
+  }
 }
 @media (max-width: 81.25em) {
   .deu-text {
