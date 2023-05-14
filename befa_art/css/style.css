@@ -547,7 +547,7 @@ body {
 }
 
 .head {
-  padding: 12.5rem 0 7.875rem 0;
+  padding: 6.25rem 0 7.875rem 0;
 }
 @media (max-width: 93.75em) {
   .head {
