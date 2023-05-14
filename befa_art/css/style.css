@@ -547,7 +547,12 @@ body {
 }
 
 .head {
-  padding: calc((1vw + 1vh) * 6.3) 0 calc((1vw + 1vh) * 5) 0;
+  padding: 12.5rem 0 7.875rem 0;
+}
+@media (max-width: 93.75em) {
+  .head {
+    padding: calc((1vw + 1vh) * 6.3) 0 calc((1vw + 1vh) * 5) 0;
+  }
 }
 @media (max-width: 81.25em) {
   .head {
@@ -603,15 +608,25 @@ body {
 .head__sub-title {
   font-family: "Geometria";
   font-weight: 700;
-  font-size: calc((1vw + 1vh) * 2);
+  font-size: 2.25rem;
   line-height: 1.25; /* 45/36 */
   margin-bottom: 1.875rem;
+}
+@media (max-width: 93.75em) {
+  .head__sub-title {
+    font-size: calc((1vw + 1vh) * 2);
+  }
 }
 .head__title {
   font-family: "Acworth";
   font-weight: 700;
-  font-size: calc((1vw + 1vh) * 8.5);
+  font-size: 13.75rem;
   line-height: 0.8; /* 243/220 */
+}
+@media (max-width: 93.75em) {
+  .head__title {
+    font-size: calc((1vw + 1vh) * 8.5);
+  }
 }
 .img-head {
   position: absolute;
@@ -1085,10 +1100,15 @@ body {
   width: 100%;
   font-family: "Acworth";
   font-weight: 700;
-  font-size: calc((1vw + 0.5vh) * 5);
+  font-size: 5rem;
   line-height: 1.1; /* 88/80 */
   padding: 6rem 0;
   background: url(../img/photo_author/photo.webp) 100% 50% no-repeat;
+}
+@media (max-width: 93.75em) {
+  .about-me__text {
+    font-size: calc((1vw + 0.5vh) * 5);
+  }
 }
 @media (max-width: 81.25em) {
   .about-me__text {
@@ -1116,7 +1136,12 @@ body {
   }
 }
 .about-me__text p {
-  width: 75vw;
+  width: 71.875rem;
+}
+@media (max-width: 93.75em) {
+  .about-me__text p {
+    width: 75vw;
+  }
 }
 @media (max-width: 81.25em) {
   .about-me__text p {
@@ -1140,11 +1165,26 @@ body {
   content: "";
   position: absolute;
   width: 50vw;
-  height: calc((1vw + 0.5vh) * 3.8);
-  top: 9.0625rem;
+  height: 3.5rem;
+  top: 8.75rem;
   right: 101.5%;
   transform: translateY(-50%);
   background-color: #b91616;
+}
+@media (max-width: 93.75em) {
+  .about-me__text:before {
+    height: calc((1vw + 0.5vh) * 3.8);
+  }
+}
+@media (max-width: 81.125em) {
+  .about-me__text:before {
+    top: 8.5625rem;
+  }
+}
+@media (max-width: 78.125em) {
+  .about-me__text:before {
+    height: calc((1vw + 0.4vh) * 3.8);
+  }
 }
 @media (max-width: 68.75em) {
   .about-me__text:before {
