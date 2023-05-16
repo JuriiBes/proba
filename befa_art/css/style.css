@@ -549,29 +549,24 @@ body {
 .head {
   padding: 6.25rem 0 7.875rem 0;
 }
-@media (max-width: 93.75em) {
-  .head {
-    padding: calc((1vw + 1vh) * 6.3) 0 calc((1vw + 1vh) * 5) 0;
-  }
-}
 @media (max-width: 81.25em) {
   .head {
-    padding: calc((1vw + 1vh) * 5.3) 0 calc((1vw + 1vh) * 4) 0;
+    padding: 5rem 0 6.25rem 0;
+  }
+}
+@media (max-width: 75em) {
+  .head {
+    padding: 4.375rem 0 5.625rem 0;
   }
 }
 @media (max-width: 61.99875em) {
   .head {
-    padding: calc((1vw + 1vh) * 5.3) 0 calc((1vw + 1vh) * 2.5) 0;
+    padding: 4.375rem 0 3.125rem 0;
   }
 }
 @media (max-width: 37.5em) {
   .head {
-    padding: calc((1vw + 1vh) * 5.3) 0 calc((1vw + 1vh) * 3.5) 0;
-  }
-}
-@media (max-width: 37.5em) {
-  .head {
-    padding: calc((1vw + 1vh) * 6.8) 0 calc((1vw + 1vh) * 4) 0;
+    padding: 4.375rem 0 2.8125rem 0;
   }
 }
 .head__body {
