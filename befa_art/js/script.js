@@ -22,7 +22,6 @@ function documentClickInfoClose(e) {
         const parentTouchElement = targetItemParent.parentElement;
         const parentElement = parentTouchElement.parentElement;
         parentElement.classList.add("info-open");
-
     }
     if (targetItem.closest(".painting__button-close")) {
         const targetItemParent = targetItem.parentElement;
@@ -39,18 +38,18 @@ function documentClickInfoClose(e) {
             const portfolioItems = document.querySelector('.portfolio__items');
             portfolioItems.style.height = portfolioItems.scrollHeight + 'px';
             portfolioItems.style.overflow = `visible`;
-
         } else {
             portfolioButton.innerHTML = 'Load more';
             const portfolioItems = document.querySelector('.portfolio__items');
+            const portfolioItem = document.querySelector('.portfolio__item');
+            const resultItem = portfolioItem.offsetHeight;
             portfolioItems.style.overflow = `hidden`;
-            portfolioItems.style.height = (898 + 'px');
-            portfolioItems.style.marginBottom = `58` + `px`;
+            portfolioItems.style.height = (((resultItem * 2) + 100) + 'px');
         }
-
-
     }
 }
+
+
 
 
 let options = {
