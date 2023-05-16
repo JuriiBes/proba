@@ -548,6 +548,7 @@ body {
 
 .head {
   padding: 6.25rem 0 7.875rem 0;
+  margin-bottom: 1px;
 }
 @media (max-width: 81.25em) {
   .head {
