@@ -644,9 +644,44 @@ body {
   font-size: 13.75rem;
   line-height: 0.8; /* 243/220 */
 }
-@media (max-width: 93.75em) {
+@media (max-width: 78.125em) {
   .head__title {
-    font-size: calc((1vw + 1vh) * 8.5);
+    font-size: 12.5rem;
+  }
+}
+@media (max-width: 71.875em) {
+  .head__title {
+    font-size: 11.25rem;
+  }
+}
+@media (max-width: 61.99875em) {
+  .head__title {
+    font-size: 9.375rem;
+  }
+}
+@media (max-width: 53.12375em) {
+  .head__title {
+    font-size: 8.75rem;
+  }
+}
+@media (max-width: 48.12375em) {
+  .head__title {
+    font-size: 8.125rem;
+  }
+}
+@media (max-width: 43.74875em) {
+  .head__title {
+    font-size: 6.25rem;
+  }
+}
+@media (max-width: 34.37375em) {
+  .head__title {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 28.12375em) {
+  .head__title {
+    font-size: 4.0625rem;
   }
 }
 .img-head {
