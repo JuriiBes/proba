@@ -616,6 +616,7 @@ body {
   opacity: 0;
   animation: text-head 1.8s forwards;
   animation-delay: 1.5s;
+  pointer-events: none;
 }
 @keyframes text-head {
   0% {
